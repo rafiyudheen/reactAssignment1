@@ -1,0 +1,62 @@
+.MyNavBar{
+    position: relative;
+}
+
+.bannerimg
+{
+    width: 100%;
+    max-height: 50vh;
+
+ 
+}
+.BannerImage{
+    position: absolute;
+    top: 0px;
+    right: 40px;    
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    padding-top: 0px;
+
+}
+.bannerTextDiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.ImageDiv{
+    
+    height: 100%;
+    /* overflow: hidden; */
+    
+    /* border: 2px solid black; */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.bannerTextDiv .text1, .text2
+{
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+}
+.bannerTextDiv .text1
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.bannerTextDiv .text2
+{
+     font-size: 4vw;
+    font-weight: bold;
+}

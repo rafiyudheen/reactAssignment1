@@ -1,0 +1,140 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-columns: 25% auto auto auto ; */ 
+    /* columns: 4 255px; */
+    gap: 10px;
+    margin: 20px auto;
+   
+
+}
+.product-Tile{
+    display: grid;
+    grid-template-rows: 1.5fr .5fr .5fr;
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 100%;
+    /* margin-top: 10px; */
+    /* justify-content:space-between ; */
+}
+
+.product-Tile img{
+    
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    padding: 10% 15%;
+}
+
+.loadingImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.prodcut-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.prodcut-price{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-align: left;
+    /* height: 100%; */
+    /* vertical-align: bottom; */
+}
+.product-Details
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    /* flex-direction: 1fr 1fr; */
+    /* justify-content: space-between; */
+    
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+
+/* @media all and (max-width: 576px) {
+    body{
+        width: 95%; 
+    }
+    .product-div{
+        display: grid;
+        grid-template-columns: 100%;
+        /* grid-template-columns: 25% auto auto auto ; */ 
+       
+/*     
+    } */
+    /* .product-Tile img{
+    
+        height: 250px;
+        width: 100%;
+        object-fit: contain;
+        padding: auto auto;
+    }
+     */
+    
+
+    
+  /* } */ 
+  
+/* @media all and (min-width: 577px) {
+    body{
+        width: 95%; 
+    }
+    .product-div{
+        display: grid;
+        grid-template-columns: 100%;
+        /* grid-template-columns: 25% auto auto auto ; */ 
+       
+    
+    /* } */
+/* } */
+
+/* @media all and (min-width: 992px) { */
+    /* body{ */
+        /* width: 95%; 
+    }
+    .product-div{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            /* grid-template-columns: 25% auto auto auto ; */ 
+           
+        
+        /* }grid-template-columns: 25% auto auto auto ;  */
+       
+    
+/* } */
+
+/* @media all and (min-width: 1200px) { */
+    /* body{ */
+        /* width: 95%;  */
+    /* } */
+    /* .product-div{ */
+            /* display: grid; */
+            /* grid-template-columns: 25% 25% 25% 25%; */
+            /* grid-template-columns: 25% auto auto auto ; */ 
+           
+        
+        /* }grid-template-columns: 25% auto auto auto ;  */
+    
+/* } */
+
